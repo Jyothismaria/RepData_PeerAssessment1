@@ -7,6 +7,7 @@ output:
 
 
 ## Loading and preprocessing the data
+converting the date in data from charater type to date type
 ```{r}
 data <- read.csv("activity.csv")
 data$date <- as.Date(data$date)
